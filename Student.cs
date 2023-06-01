@@ -12,10 +12,13 @@
         this.finalGrade = finalGrade;
     }
 
-    public Student(string name, int age)
+    public Student(string name, int age) :this(name, age,0)
     {
-        this.name = name;
-        this.age = age;
+        //this is duplicating code and we can instead use a constructor initailizer
+        //allows us to call another constructor from a constructor
+        //this.name = name; 
+        //this.age = age;
+        //using the this keyword
     }
 
     
