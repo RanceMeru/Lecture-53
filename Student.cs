@@ -3,7 +3,7 @@
   
     private int age;
     private string name;
-    private double finalGrade;
+    private double finalGrade;//you only want the information from the constructor
 
     public Student(string name, int age, double finalGrade)
     {
